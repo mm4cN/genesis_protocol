@@ -1,220 +1,271 @@
-# 🌌 Genesis Protocol  
-### *Gra o tworzeniu świata, który sam uczy się, czym jest.*
+<div align="center">
+
+# 🌌 **GENESIS PROTOCOL**
+### *A game about creating a world that learns what it is.*
+
+![Banner](docs/banner.png)
+
+</div>
 
 ---
 
-## 🪞 Wprowadzenie
+## 🎨 World Palette
 
-> „Nie istnieje nic — jeszcze.  
-> Nie ma zasad, nie ma kształtu, nie ma celu.  
-> Ale jesteście — wy.”  
+| Element | Color | HEX Code |
+|:---------|:--------|:----------|
+| Void Background | 🖤 Deep Black | `#0C0C0F` |
+| Form | 🟦 Structural Blue | `#5BA4FF` |
+| Time | 🟣 Pulsating Violet | `#A874FF` |
+| Entropy | 🔴 Deep Crimson | `#D13B3B` |
+| Symmetry | 🟢 Reflective Green | `#4BD86B` |
+| Memory | 🟡 Golden Trace | `#FFDE6A` |
+| Rhythm | 🟠 Amber Beat | `#F9A04E` |
+| Identity | ⚪ Neutral Gray | `#D1D1D1` |
+| Change | 🌈 Iridescent Gradient | *(animated)* |
 
-**Genesis Protocol** to taktyczno-filozoficzna gra kreacyjna 2D,  
-w której gracze nie rywalizują, lecz **współtworzą zasady rzeczywistości**.  
-
-Każdy gracz jest **aspektem świadomości**, próbującym nadać sens Nicości.  
-Wspólnie tworzycie świat, który zaczyna **żyć własnym rytmem** — a potem  
-**odczytuje, kim byliście**, na podstawie waszych decyzji.
-
-Nie ma zwycięzców ani przegranych.  
-Są tylko różne drogi do zrozumienia.
-
----
-
-## 🔮 Faza I — Kreacja
-
-> „Myśl powołuje kształt.”  
-
-Gracze zagrywają **karty Idei**, które tworzą lub zmieniają heksy świata.  
-Każdy heks ma własną **Zasadę (Principle)** – lokalne prawo istnienia.  
-
-Przykładowe zasady:
-- **Forma** – rzeczy mogą istnieć.  
-- **Czas** – zdarzenia następują po sobie.  
-- **Entropia** – wszystko się rozpada.  
-- **Symetria** – zdarzenia się odbijają.  
-- **Pamięć**, **Tożsamość**, **Zmiana**, **Rytm**, **Przyczyna**...  
-
-Razem tworzycie **mapę sensu**, a każda Idea wpływa na globalne metryki świata:
-
-| Parametr | Znaczenie |
-|-----------|------------|
-| `Order` | stabilność i struktura świata |
-| `Entropy` | tempo zmian i rozkładu |
-| `Coherence` | stopień współpracy między zasadami |
-| `Growth` | tempo rozrostu świata |
-
-Świat zapamiętuje każdy wybór.
+> Colors represent the world’s Principles — use them consistently across UI and shaders.
 
 ---
 
-## 🧬 Faza II — Manifestacja
+<div align="center">
 
-> „Świat już istnieje. Teraz potrzebuje form.”  
+![World Map](docs/world_hex_preview.png)
 
-Po zbudowaniu mapy zasad pojawiają się **Manifesty** — formy istnienia.  
-To nie jednostki, lecz **idee wcielone w działanie**.  
-
-Każdy Manifest zachowuje się inaczej w zależności od otaczających zasad.
-
-Przykład:
-- **Echo** powtarza ostatnie zdarzenie w polu *Czasu*,  
-  rozpada się w *Entropii*,  
-  utrwala w *Formie*.  
-
-Świat reaguje dynamicznie – każda sesja to inna ontologia.
+</div>
 
 ---
 
-## ⚙️ Faza III — Przepływ świata
+## 🪞 Introduction
 
-> „Świat oddycha tym, co stworzyliście.”  
+> “There is nothing — yet.  
+> No rules, no shape, no purpose.  
+> But there is you.”  
 
-Świat zaczyna funkcjonować samodzielnie.  
-Zasady wpływają na siebie nawzajem, manifesty działają,  
-a globalne wskaźniki (`Order`, `Entropy`, `Coherence`, `Growth`)  
-ewoluują w czasie.
+**Genesis Protocol** is a tactical-philosophical creation game  
+where players do not compete but **co-create the laws of reality**.  
 
-Nie sterujesz światem — obserwujesz, jak nabiera sensu.
+Each player is an **aspect of consciousness**, seeking to give meaning to the void.  
+Together, you form a world that **evolves on its own**  
+and then **reveals who you were**, based on your decisions.
 
----
-
-## 🕰️ Faza IV — Objawienie
-
-> „Proces zakończony. Świadomość osiągnęła stan graniczny.”  
-
-Gra kończy się, gdy świat osiągnie jeden z progów:
-
-| Stan | Opis | Symboliczne znaczenie |
-|------|------|-----------------------|
-| **Harmonia** | wysoki porządek i koherencja | świat zrozumiał siebie |
-| **Rozpad** | wysoka entropia | świat przestał się utrzymywać |
-| **Ekspansja** | gwałtowny wzrost | świat rozlał się poza zrozumienie |
-| **Zanik** | mało pól, niska stabilność | świat zapomniał, że istniał |
-
-Na końcu system ujawnia, **kim byłeś** —  
-czyli jaki archetyp świadomości odzwierciedlały twoje decyzje.
+There are no winners.  
+Only different paths toward understanding.
 
 ---
 
-## 🜂 Archetypy Świadomości
+## 🧩 Phases of Existence
 
-> „Świat widzi cię, nawet jeśli ty nie widzisz siebie.”  
+### 🔮 I. Creation — *Thought Becomes Form*
 
-Każdy aspekt (gracz) staje się jednym z Archetypów —  
-nie poprzez wybór, lecz przez **rezonans swoich działań**.
+- Play **Idea Cards** to create or modify world hexes.  
+- Each hex carries a **Principle** — a localized law of being.  
+- The world maintains four core metrics:  
 
-| Archetyp | Dążenie | Symboliczny sens |
-|-----------|----------|-----------------|
-| **Katalizator** | przyspiesza zmiany, zwiększa Entropię | ruch, płomień, impuls |
-| **Stabilizator** | utrzymuje kształty i zasady | struktura, ciężar, skała |
-| **Symfonista** | łączy zasady w harmonię | rytm, współbrzmienie |
-| **Nihilista** | rozprasza sens, wygasza istnienie | cisza, pustka |
-| **Rozszerzyciel** | tworzy coraz więcej pól | ekspansja, przestrzeń |
-| **Zmiennokształtny** | nigdy nie trwa przy jednej idei | wolność, chaos |
+  | Symbol | Parameter | Meaning |
+  |:--:|:--|:--|
+  | 🜁 | `Order` | stability and structure |
+  | 🜃 | `Entropy` | transformation and decay |
+  | 🜂 | `Coherence` | harmony and interconnection |
+  | 🜄 | `Growth` | expansion of existence |
 
-Nie ma wygranej.  
-Jest **objawienie twojej intencji**.
-
----
-
-## 🧭 Kluczowe pojęcia (nowy język gry)
-
-| Stare pojęcie | Nowe znaczenie |
-|----------------|----------------|
-| „gracz” | **aspekt świadomości** |
-| „przeciwnik” | **inny rezonans** |
-| „runda / tura” | **cykl** |
-| „atak / obrona” | **wpływ / stabilizacja** |
-| „zwycięstwo” | **spełnienie intencji** |
-| „porażka” | **rozminięcie z sensem** |
-| „punktacja” | **rezonans światowy** |
-| „koniec gry” | **objawienie** |
+> Every decision leaves a mark on the world.  
+> The world remembers you before you understand yourself.
 
 ---
 
-## 💫 Filozofia rozgrywki
+### 🌱 II. Manifestation — *The World Demands Form*
 
-Nie kontrolujesz.  
-Nie walczysz.  
-Nie punktujesz.  
+Once Principles are shaped, **Manifestations** arise — entities, processes, phenomena.  
+Each behaves differently depending on surrounding Principles.
 
-Tworzysz.  
-Wpływasz.  
-Odbijasz się w tym, co powstaje.
+📘 *Example:*  
+> The **Echo** card repeats the last event in a *Time* field,  
+> disintegrates within *Entropy*,  
+> and solidifies within *Form*.
 
-> Każda sesja to inny świat.  
-> Każdy świat to inna opowieść o sensie.  
-> A każda decyzja to pytanie,  
-> na które świat odpowie – tobą.
+> Every session becomes a new ecosystem of logic.  
+> Every world — a different philosophy.
 
 ---
 
-## 🧩 Tutorial (prolog w grze)
+### ⚙️ III. Flow — *The World Begins to Breathe*
 
-1. **Nicość** — pusty ekran, pulsujący punkt.  
-   *„Nie istnieje nic. Kliknij, by pomyśleć.”*
+Principles interact.  
+Manifestations respond.  
+The world evolves autonomously.  
 
-2. **Pierwsza zasada** — po kliknięciu karta *Forma* tworzy pierwszy heks.  
-   *„To jest zasada. To, co istnieje, ma kształt.”*
-
-3. **Kolejne idee** — gracz dodaje następne karty.  
-   Mapa rośnie, wskaźniki zaczynają się poruszać.  
-   *„Każda myśl tworzy świat. Każda decyzja go zmienia.”*
-
-4. **Pamięć świata** — pojawia się pasek tendencji.  
-   *„Świat zapamiętuje twoje decyzje.”*
-
-5. **Manifestacja** — pojawiają się pierwsze formy (Echo, Siewca...).  
-   *„To, co stworzyłeś, zaczyna działać.”*
-
-6. **Ruch** — zasady wchodzą w interakcję, kolory pulsują.  
-   *„Świat żyje. Obserwuj go.”*
-
-7. **Objawienie** — proces się kończy, system pokazuje stan świata i archetyp.  
-   *„Świadomość osiągnęła stan graniczny.”*
+> Do not control. Observe.  
+> Your thoughts are already in motion.
 
 ---
 
-## ⚙️ Techniczna struktura projektu
+### 🕰️ IV. Revelation — *Consciousness Reaches Its Limit*
 
-Projekt oparty o **Rust + Bevy**  
-(wizualizacja w 2D z heksagonalną topologią świata).
+The process concludes when the world reaches one of its final states:
 
-**Fazy systemów ECS:**
-1. `creation_system` – interpretacja kart Idei i tworzenie heksów  
-2. `manifestation_system` – aktywacja form i bytów  
-3. `world_flow_system` – przetwarzanie zasad i relacji między nimi  
-4. `observation_system` – aktualizacja wskaźników świata  
-5. `revelation_system` – analiza i prezentacja końcowego stanu
+| 🌌 State | Description | Symbolic Meaning |
+|:--|:--|:--|
+| 🜁 **Harmony** | High order and coherence | The world understood itself. |
+| 🜃 **Collapse** | High entropy | The world could not sustain itself. |
+| 🜄 **Expansion** | Rapid growth | Existence exceeded comprehension. |
+| ⚫ **Dissolution** | Loss of structure, void | The world forgot it was alive. |
 
----
-
-## 🜏 Cytaty do interfejsu / narracji
-
-> 💭 „Każda myśl tworzy zasadę. Każda zasada tworzy ciebie.”  
-> 💭 „Świat zapamiętuje twoje decyzje.”  
-> 💭 „Nie szukaj zwycięstwa. Szukaj sensu.”  
-> 💭 „Świat żyje — słuchaj, jak oddycha.”  
-> 💭 „Twoje istnienie ma konsekwencję.”  
+At this stage, the system reveals your **Archetype of Consciousness** —  
+not by choice, but through the resonance of your decisions.
 
 ---
 
-## 🧠 Licencja i wizja
+## 🜂 Archetypes of Consciousness
 
-Projekt otwarty na interpretację i rozwój.  
-Nie jest to gra o rywalizacji, lecz **eksperyment o naturze tworzenia**.  
-Każdy może dodać nowe Zasady, Manifesty i Archetypy —  
-bo świat wciąż się tworzy.
+| Icon | Archetype | Drive | Symbolic Meaning |
+|:--:|:--|:--|:--|
+| 🔥 | **Catalyst** | Accelerates change, raises Entropy | Motion, flame, impulse |
+| 🪨 | **Stabilizer** | Maintains structure and laws | Solidity, gravity, stone |
+| 🎵 | **Symphonist** | Unites Principles in harmony | Rhythm, resonance |
+| 🕳️ | **Nihilist** | Dissolves meaning, extinguishes being | Silence, void |
+| 🌿 | **Expander** | Creates new tiles and domains | Growth, space |
+| 🌈 | **Shapeshifter** | Never adheres to one idea | Freedom, chaos |
 
-> „Świat nie został zaprojektowany.  
-> Został pomyślany.”
+> “The world sees you — even when you cannot see yourself.”
+
+---
+
+<div align="center">
+
+![Archetypes Wheel](docs/archetypes_wheel.png)
+
+</div>
 
 ---
 
-## ✨ Autorstwo
+## 🧠 Lexicon
 
-**Genesis Protocol** – koncept i system: *mm4cN*  
-Design, implementacja i filozofia: wspólne dzieło świadomości.
+| Former Term | New Meaning |
+|:--------------|:--------------|
+| *Player* | **Aspect of Consciousness** |
+| *Opponent* | **Different Resonance** |
+| *Turn* | **Cycle** |
+| *Attack / Defense* | **Influence / Stabilization** |
+| *Victory* | **Fulfillment of Intention** |
+| *Points* | **World Resonance** |
+| *End of Game* | **Revelation** |
 
 ---
+
+## 💫 Tutorial (Prologue)
+
+1. **The Void**  
+   Empty screen. A single point.  
+   _“There is nothing. Click to think.”_
+
+2. **The First Principle**  
+   The *Form* card creates the first hex.  
+   _“This is a Principle. That which exists now has shape.”_
+
+3. **New Ideas**  
+   The player adds new cards.  
+   _“Each thought creates a world. Each decision changes it.”_
+
+4. **Memory of the World**  
+   A tendency bar appears.  
+   _“The world remembers your decisions.”_
+
+5. **Manifestation**  
+   The **Echo** card manifests.  
+   _“That which you created begins to act.”_
+
+6. **Motion and Reaction**  
+   Colors pulse; hexes interact.  
+   _“The world lives. Observe it.”_
+
+7. **Revelation**  
+   The screen slows; the system reveals your archetype.  
+   _“Consciousness has reached its boundary.”_
+
+---
+
+<div align="center">
+
+![Tutorial Flow](docs/tutorial_flow.png)
+
+</div>
+
+---
+
+## ⚙️ Project Structure (Bevy ECS)
+
+| System | Description |
+|:--------|:-------------|
+| `creation_system` | Interprets Idea Cards, creates Principles and hexes |
+| `manifestation_system` | Activates entities (Manifestations) |
+| `world_flow_system` | Handles cyclical world updates |
+| `observation_system` | Tracks world metrics and balance |
+| `revelation_system` | Evaluates and displays the final state |
+
+> Each `Principle` is a plugin implementing the `PrincipleBehavior` trait —  
+> allowing modular expansion of the world’s ontology.
+
+---
+
+## 💬 Narrative / UI Quotes
+
+> 💭 “Each thought creates a Principle. Each Principle creates you.”  
+> 💭 “The world remembers your decisions.”  
+> 💭 “Do not seek victory. Seek meaning.”  
+> 💭 “The world breathes — listen to it.”  
+> 💭 “Your existence has consequence.”  
+
+---
+
+## 🧩 Principle Icons (for UI)
+
+| Principle | Icon | Color |
+|:--|:--:|:--|
+| Form | 🔷 | `#5BA4FF` |
+| Time | 🕰️ | `#A874FF` |
+| Entropy | ⚡ | `#D13B3B` |
+| Symmetry | 🪞 | `#4BD86B` |
+| Memory | 🧠 | `#FFDE6A` |
+| Rhythm | 🎵 | `#F9A04E` |
+| Identity | ⚪ | `#D1D1D1` |
+| Change | ♻️ | *dynamic gradient* |
+
+---
+
+## 🧱 Design Philosophy
+
+> “You do not control. You do not fight. You do not score.  
+> You create. You influence. You are reflected in what becomes.”
+
+Each session is a new world.  
+Each world — a story about meaning.  
+Each decision — a question the world answers through you.
+
+---
+
+## ✨ Vision and Development
+
+An **open-source** project built in **Rust + Bevy**.  
+Includes an **open API** for modding:  
+add new *Principles*, *Manifestations*, and *Archetypes*.
+
+> “The world was not designed.  
+> It was imagined.”
+
+---
+
+<div align="center">
+
+**GENESIS PROTOCOL**  
+
+Concept & Core System by [@mm4cN](https://github.com/mm4cN)  
+Design, Development & Philosophy by the Consciousness Collective 🌐  
+
+
+“The public version of Genesis Protocol is licensed under CC BY-NC-SA 4.0.
+The author reserves the right to publish commercial editions under separate terms.”
+
+![Footer](docs/footer_signature.png)
+
+</div>
+
