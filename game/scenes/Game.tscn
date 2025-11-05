@@ -1,0 +1,68 @@
+[gd_scene load_steps=5 format=3 uid="uid://6bnbdhgmmbiv"]
+
+[ext_resource type="Script" uid="uid://ctqa54oigw1uh" path="res://scripts/HexGrid.gd" id="1_ibkli"]
+[ext_resource type="PackedScene" uid="uid://bvvnf0ti2f8lq" path="res://scenes/Tile.tscn" id="2_cpr0p"]
+[ext_resource type="Script" uid="uid://bp45qg8jmttcp" path="res://scripts/Deck.gd" id="3_78awf"]
+[ext_resource type="Script" uid="uid://brh0nfm8avg8u" path="res://scripts/GameController.gd" id="4_78awf"]
+
+[node name="Game" type="Node2D"]
+
+[node name="HexGrid" type="Node2D" parent="."]
+script = ExtResource("1_ibkli")
+tile_scene = ExtResource("2_cpr0p")
+metadata/_custom_type_script = "uid://ctqa54oigw1uh"
+
+[node name="Deck" type="Node2D" parent="."]
+script = ExtResource("3_78awf")
+
+[node name="GameController" type="Node2D" parent="."]
+script = ExtResource("4_78awf")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="root" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Box" type="VBoxContainer" parent="UI/root"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Metrics" type="PanelContainer" parent="UI/root/Box"]
+custom_minimum_size = Vector2(0, 32)
+layout_mode = 2
+
+[node name="Label" type="Label" parent="UI/root/Box/Metrics"]
+layout_mode = 2
+
+[node name="Expand" type="Control" parent="UI/root/Box"]
+layout_mode = 2
+
+[node name="Hand" type="PanelContainer" parent="UI/root/Box"]
+custom_minimum_size = Vector2(0, 96)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="UI/root/Box/Hand"]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UI/root/Box/Hand/MarginContainer"]
+layout_mode = 2
+
+[node name="Card3" type="Button" parent="UI/root/Box/Hand/MarginContainer/HBoxContainer"]
+layout_mode = 2
+text = "Card3"
+
+[node name="Card2" type="Button" parent="UI/root/Box/Hand/MarginContainer/HBoxContainer"]
+layout_mode = 2
+text = "Card2"
+
+[node name="Card1" type="Button" parent="UI/root/Box/Hand/MarginContainer/HBoxContainer"]
+layout_mode = 2
+text = "Card1"
+
+[connection signal="pressed" from="UI/root/Box/Hand/MarginContainer/HBoxContainer/Card3" to="GameController" method="_on_card_3_pressed"]
+[connection signal="pressed" from="UI/root/Box/Hand/MarginContainer/HBoxContainer/Card2" to="GameController" method="_on_card_2_pressed"]
+[connection signal="pressed" from="UI/root/Box/Hand/MarginContainer/HBoxContainer/Card1" to="GameController" method="_on_card_1_pressed"]
